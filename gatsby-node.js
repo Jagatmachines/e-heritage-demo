@@ -27,7 +27,7 @@ function createLinkedPages(createPage, edges) {
       destPosts[node.frontmatter.country].push(node)
     }
   })
-  Object.keys(destPosts).forEach(dest => {
+  /* Object.keys(destPosts).forEach(dest => {
     createPage({
       path: `/destination/${dest}`,
       component: listTemplate,
@@ -37,7 +37,7 @@ function createLinkedPages(createPage, edges) {
         type: `destination`,
       },
     })
-  })
+  }) */
 
   Object.keys(tagPosts).forEach(tagName => {
     createPage({

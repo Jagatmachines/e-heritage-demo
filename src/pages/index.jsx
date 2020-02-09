@@ -58,7 +58,7 @@ const Index = ({ data }) => {
         <Section title="Featured articles">
           <Posts posts={featured} />
         </Section>
-        <Sensor onChange={setViewCountUp}>
+        {/* <Sensor onChange={setViewCountUp}>
           <Section
             size={useContext(ResponsiveContext)}
             title="Our trips in numbers"
@@ -119,8 +119,8 @@ const Index = ({ data }) => {
               />
             </Box>
           </Section>
-        </Sensor>
-        <Section title="Where we have been!">
+        </Sensor> */}
+        {/* <Section title="Where we have been!">
           <Map cities={coords} />
         </Section>
         <Section
@@ -164,7 +164,7 @@ const Index = ({ data }) => {
         </Section>
         <Section title="Latest articles">
           <Posts posts={latest.slice(0, 4)} />
-        </Section>
+        </Section> */}
       </App>
     </>
   )

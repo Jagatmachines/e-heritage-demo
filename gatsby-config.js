@@ -71,8 +71,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OAsome blog`,
-        short_name: `OAsome`,
+        name: `E-Smart Heritage`,
+        short_name: `E-Heritage`,
         start_url: `/`,
         background_color: `#fafafa`,
         theme_color: `#EEEEEE`,

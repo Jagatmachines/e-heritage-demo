@@ -30,10 +30,10 @@ const Header = ({ title, toggleSidebar, showSidebar }) => {
             onClick={() => toggleSidebar(!showSidebar)}
           />
           <Heading level="2" margin={{ left: `small`, vertical: `none` }}>
-            {title || `OAsome Blog`}
+            {title || `E-Smart Heritage`}
           </Heading>
         </Box>
-        {size !== `small` && (
+        {/* size !== `small` && (
           <Box
             margin={{ horizontal: `medium` }}
             direction="row"
@@ -69,7 +69,7 @@ const Header = ({ title, toggleSidebar, showSidebar }) => {
               href={`mailto:${config.email}`}
             />
           </Box>
-        )}
+        ) */}
       </Box>
     </Box>
   )

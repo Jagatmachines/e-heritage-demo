@@ -28,10 +28,10 @@ const App = ({ title, children }) => {
         />
         {showSidebar && <Sidebar toggleSidebar={setSidebar} />}
         {children}
-        <ResponsiveContext.Consumer>
+        {/* <ResponsiveContext.Consumer>
           {size => size !== `small` && <Instafeed />}
-        </ResponsiveContext.Consumer>
-        <Footer />
+        </ResponsiveContext.Consumer> */}
+        {/* <Footer /> */}
       </Box>
     </Grommet>
   )
@@ -44,7 +44,7 @@ App.propTypes = {
 
 App.defaultProps = {
   children: null,
-  title: `OAsome blog`,
+  title: `E-Smart Heritage`,
 }
 
 export default App

@@ -1,5 +1,5 @@
 module.exports = {
-  title: `OAsome Blog`,
+  title: `E-Smart Heritage`,
   url: `https://oasome.blog`,
   description: `Paris-based Cypriot adventurers. A and O. Lovers of life and travel. Want to get a glimpse of the OAsome world?`,
   twitter: `oasome_blog`,

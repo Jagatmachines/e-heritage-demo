@@ -7,7 +7,7 @@ cover: "./cover.jpg"
 country: "Usa"
 type: "article"
 duration: 4
-featured: true
+featured: false
 itinerary: ["San Francisco"]
 ---
 

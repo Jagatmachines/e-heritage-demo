@@ -7,7 +7,7 @@ cover: "./cover.jpg"
 country: "France"
 type: "article"
 duration: 5
-featured: true
+featured: false
 itinerary: ["Rennes", "Mont-Saint-Michel", "Saint-Malo", "Tours", "Chenonceau", "Chambord", "Chaumont"]
 km: 604
 coordinates: [

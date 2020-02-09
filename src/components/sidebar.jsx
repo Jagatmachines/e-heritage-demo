@@ -46,11 +46,11 @@ const Sidebar = ({ toggleSidebar }) => {
       )}
       <Box width="small">
         <Box align="center" border="bottom">
-          <Heading level={3}>OAsome</Heading>
+          <Heading level={3}>E-Heritage</Heading>
         </Box>
         <Box margin={{ vertical: `small` }}>
           <SideBarLink to="/" text="Home" icon={Home} />
-          <SideBarLink to="/archive/" text="Archive" icon={Archive} />
+          {/* <SideBarLink to="/archive/" text="Archive" icon={Archive} />
           <SideBarLink to="/photos/" text="Photos" icon={Camera} />
           <Button plain hoverIndicator onClick={() => setDest(!destOpen)}>
             <ListItem>
@@ -66,7 +66,7 @@ const Sidebar = ({ toggleSidebar }) => {
             </Box>
             {}
           </Collapsible>
-          <SideBarLink to="/about/" text="About us" icon={Group} />
+          <SideBarLink to="/about/" text="About us" icon={Group} /> */}
         </Box>
       </Box>
     </Layer>
