@@ -45,7 +45,7 @@ function BlogPost({ data, pageContext }) {
         postImage={frontmatter.cover.childImageSharp.fluid.src}
         postData={markdownRemark}
       />
-      <App title="OAsome blog">
+      <App title="E-Smart Heritage">
         <Box
           width="xxlarge"
           justify="around"
@@ -64,7 +64,7 @@ function BlogPost({ data, pageContext }) {
             timeToRead={timeToRead}
             country={frontmatter.country}
           />
-          <Box gap="small" width="medium">
+          {/* <Box gap="small" width="medium">
             {frontmatter.km && (
               <TripDetails
                 km={frontmatter.km}
@@ -81,7 +81,7 @@ function BlogPost({ data, pageContext }) {
               <Heading level="4">Contents</Heading>
               <Toc dangerouslySetInnerHTML={{ __html: tableOfContents }} />
             </Box>
-          </Box>
+          </Box> */}
         </Box>
         {similar.length > 1 && (
           <Section background="light-1" title="Similar articles">

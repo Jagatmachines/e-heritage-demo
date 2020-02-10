@@ -39,7 +39,7 @@ function createLinkedPages(createPage, edges) {
     })
   }) */
 
-  Object.keys(tagPosts).forEach(tagName => {
+  /* Object.keys(tagPosts).forEach(tagName => {
     createPage({
       path: `/tag/${tagName.toLowerCase()}`,
       component: listTemplate,
@@ -49,7 +49,7 @@ function createLinkedPages(createPage, edges) {
         type: `tag`,
       },
     })
-  })
+  }) */
   return { tagPosts, destPosts }
 }
 

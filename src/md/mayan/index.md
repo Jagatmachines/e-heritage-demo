@@ -6,7 +6,7 @@ tags: ["palenque", "mayan ruins", "chichen itza", "uxmal", "yucatan"]
 cover: "cover.jpg"
 country: "Mexico"
 type: "article"
-featured: true
+featured: false
 duration: 3
 itinerary: ["Palenque", "Merida", "Uxmal", "Chichen itza"]
 km: 910
